@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_baseline_av_timer_24"
+            android:title="Timer" />
+        <item
+            android:id="@+id/nav_hewan"
+            android:icon="@drawable/ic_baseline_cruelty_free_24"
+            android:title="Data Hewan" />
+        <item
+            android:id="@+id/nav_sql"
+            android:icon="@drawable/ic_baseline_backup_24"
+            android:title="Database" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profil" />
+                <item
+                    android:id="@+id/nav_api"
+                    android:icon="@drawable/ic_baseline_manage_search_24"
+                    android:title="ResApi" />
+
+    </group>
+</menu>
